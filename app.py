@@ -15,7 +15,7 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 MODEL = os.getenv("OPENAI_MODEL", "gpt-6-luna")
 
 st.set_page_config(page_title="AI Tutor · Week 4 Final", page_icon="🤖")
-st.title("Reliable AI Tutor")
+st.title("Reliable AI Assistant")
 st.caption("Week 4 portfolio project · Streaming, memory, API reliability")
 
 DEFAULTS = {
