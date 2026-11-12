@@ -1,0 +1,8 @@
+[
+  {"id": "arithmetic", "prompt": "What is 7 times 8? Reply using only the integer.", "expected": "56"},
+  {"id": "attention", "prompt": "What mathematical function normalizes attention logits into weights? Reply with one word.", "expected": "softmax"},
+  {"id": "classification", "prompt": "In binary classification, TP/(TP+FP) is called what? Reply with one word.", "expected": "precision"},
+  {"id": "tensor_shape", "prompt": "How many classes does a classifier with logits shape [2, 3] predict? Reply using only the integer.", "expected": "3"},
+  {"id": "f1", "prompt": "F1 combines precision and which other classification metric? Reply with one word.", "expected": "recall"},
+  {"id": "python", "prompt": "What does len(['a','b','c']) return in Python? Reply using only the integer.", "expected": "3"}
+]

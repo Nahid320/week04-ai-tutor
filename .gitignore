@@ -1,0 +1,13 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+.streamlit/secrets.toml
+
+# Local artifacts
+outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
